@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const SplashScreen = ({ onFinish }: { onFinish: () => void }) => {
   React.useEffect(() => {
-    const timer = setTimeout(onFinish, 3000);
+    const timer = setTimeout(onFinish, 7000);
     return () => clearTimeout(timer);
   }, [onFinish]);
 
