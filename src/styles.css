@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  background-attachment: fixed;
+  position: relative;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.05) 1%, transparent 1%),
+    radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.05) 1%, transparent 1%);
+  background-size: 100px 100px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Update header background */
+header {
+  background: linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%) !important;
+}
+
+/* Update icon colors */
+svg {
+  color: white !important;
+}
+
+/* Update button styles */
+button {
+  @apply transition-all duration-300 shadow-md hover:shadow-lg;
+  background: linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%);
+}
+
+button:hover {
+  @apply transform scale-[1.02];
+  background: linear-gradient(135deg, #7f1d1d 0%, #681717 100%);
+}
+
+/* Rest of your existing styles remain the same */
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
+
+.calculator-container {
+  @apply bg-white/90 backdrop-blur-lg rounded-xl shadow-xl p-6 transition-all duration-300;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.input-group {
+  @apply transition-all duration-300;
+}
+
+.input-group:hover {
+  @apply transform scale-[1.02];
+}
+
+.input-group input {
+  @apply bg-white/80 backdrop-blur-sm border-gray-200 focus:border-red-500 focus:ring-2 focus:ring-red-500/50;
+  transition: all 0.3s ease;
+}
+
+.input-group input:hover {
+  @apply border-red-400;
+}
+
+.results-container {
+  @apply bg-white/90 backdrop-blur-lg rounded-xl p-6 shadow-lg transition-all duration-300;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.percentage-display {
+  @apply text-2xl font-bold text-center p-4 rounded-lg mb-4 shadow-md;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.8) 100%);
+}
+
+.percentage-high {
+  background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+  @apply text-green-800;
+}
+
+.percentage-medium {
+  background: linear-gradient(135deg, #fef9c3 0%, #fde047 100%);
+  @apply text-yellow-800;
+}
+
+.percentage-low {
+  background: linear-gradient(135deg, #fee2e2 0%, #fca5a5 100%);
+  @apply text-red-800;
+}
+
+.recommendation-card {
+  @apply bg-white/90 backdrop-blur-lg p-6 rounded-xl shadow-md mb-4;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.improvement-card {
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  @apply p-6 rounded-xl shadow-md;
+}
+
+/* Footer styles */
+.footer {
+  background: linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%);
+  @apply mt-12 text-white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(220, 38, 38, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(220, 38, 38, 0.7);
+}
+
+/* Glassmorphism effect for cards */
+.glass-card {
+  @apply bg-white/90 backdrop-blur-lg rounded-xl shadow-lg;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Animation classes */
+.hover-scale {
+  @apply transition-transform duration-300 hover:scale-105;
+}
+
+.hover-lift {
+  @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+}
+
+/* Tab styles */
+.tab-container {
+  @apply bg-white/20 backdrop-blur-md p-1 rounded-lg;
+}
+
+.tab-button {
+  @apply px-4 py-2 rounded-lg transition-all duration-300;
+}
+
+.tab-button.active {
+  @apply bg-white text-red-600 shadow-md;
+}
+
+/* Social icons */
+.social-icon {
+  @apply text-white hover:text-red-200 transition-colors duration-300;
+}
