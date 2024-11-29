@@ -12,7 +12,7 @@ const SplashScreen = ({ onFinish }: { onFinish: () => void }) => {
       className="fixed inset-0 bg-blue-900 flex items-center justify-center z-50"
       initial={{ opacity: 1 }}
       animate={{ opacity: 0 }}
-      transition={{ duration: 1, delay: 2 }}
+      transition={{ duration: 5, delay: 5 }}
     >
       <motion.div
         initial={{ scale: 0.5, opacity: 0 }}
