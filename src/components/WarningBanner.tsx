@@ -13,8 +13,11 @@ const WarningBanner = () => {
         <AlertTriangle className="h-6 w-6 text-yellow-400 mr-3" />
         <div>
           <p className="text-sm text-yellow-700">
-            <span className="font-bold">Important Notice: </span>
-            This calculator is for reference purposes only. Always verify your attendance with official university records.
+            <span className="font-bold">quotes </span>
+            "Mark your presence, not just your attendance"
+            "Attend classes, not worries"
+            "Stay on track, stay ahead"
+            "Effortless attendance, effortless success"
           </p>
         </div>
       </div>
