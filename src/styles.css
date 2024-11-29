@@ -109,7 +109,7 @@ button:hover {
 
 /* Footer styles */
 .footer {
-  background: linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%);
+  background: black(135deg, #991b1b 0%, #7f1d1d 100%);
   @apply mt-12 text-white;
 }
 
@@ -157,10 +157,10 @@ button:hover {
 }
 
 .tab-button.active {
-  @apply bg-white text-red-600 shadow-md;
+  @apply bg-blue text-red-600 shadow-md;
 }
 
 /* Social icons */
 .social-icon {
-  @apply text-white hover:text-red-200 transition-colors duration-300;
+  @apply text-blue hover:text-red-200 transition-colors duration-300;
 }
