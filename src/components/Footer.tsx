@@ -18,13 +18,13 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Connect With Developer</h3>
             <div className="flex space-x-4">
               <motion.div whileHover={{ scale: 1.1 }}>
-                <SocialIcon url="https://github.com/SATVIK202004" bgColor="#fff" style={{ height: 35, width: 35 }} />
+                <SocialIcon url="https://github.com/SATVIK202004" bgColor="blue" style={{ height: 35, width: 35 }} />
               </motion.div>
               <motion.div whileHover={{ scale: 1.1 }}>
-                <SocialIcon url="https://www.instagram.com/iamsatvik20/" bgColor="#fff" style={{ height: 35, width: 35 }} />
+                <SocialIcon url="https://www.instagram.com/iamsatvik20/" bgColor="green" style={{ height: 35, width: 35 }} />
               </motion.div>
               <motion.div whileHover={{ scale: 1.1 }}>
-                <SocialIcon url="https://www.linkedin.com/in/peddisetty-venkat-satvik-363903284/" bgColor="#fff" style={{ height: 35, width: 35 }} />
+                <SocialIcon url="https://www.linkedin.com/in/peddisetty-venkat-satvik-363903284/" bgColor="yellow" style={{ height: 35, width: 35 }} />
               </motion.div>
             </div>
           </div>
@@ -32,7 +32,8 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Project Information</h3>
             <p className="text-sm opacity-80">
               Developed by: Peddisetty Venkat Satvik<br />
-              Roll No: 2200040029<br />
+              Id No: 2200040029<br />
+              Branch: ECE<br />
               Version: 1.0.0
             </p>
           </div>
