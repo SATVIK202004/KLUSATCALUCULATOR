@@ -31,7 +31,12 @@ header {
 
 /* Update icon colors */
 svg {
-  color: white !important;
+  color: currentColor; /* Use the default text color */
+  transition: color 0.3s ease; /* Smooth color transitions */
+}
+
+svg:hover {
+  color: #fca5a5; /* Change to a soft red on hover */
 }
 
 /* Update button styles */
