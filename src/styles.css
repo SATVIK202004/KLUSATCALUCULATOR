@@ -31,7 +31,7 @@ header {
 
 /* Update icon colors */
 svg {
-  color: blue !important;
+  color: white !important;
 }
 
 /* Update button styles */
@@ -110,7 +110,7 @@ button:hover {
 /* Footer styles */
 .footer {
   background: linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%);
-  @apply mt-12 text-black;
+  @apply mt-12 text-white;
 }
 
 /* Custom scrollbar */
@@ -134,7 +134,7 @@ button:hover {
 
 /* Glassmorphism effect for cards */
 .glass-card {
-  @apply bg-Blue/90 backdrop-blur-lg rounded-xl shadow-lg;
+  @apply bg-white/90 backdrop-blur-lg rounded-xl shadow-lg;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
