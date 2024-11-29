@@ -21,7 +21,7 @@ const SplashScreen = ({ onFinish }: { onFinish: () => void }) => {
         className="text-center"
       >
         <img
-          src="https://www.kluniversity.in/images/klu-logo.png"
+          src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fkluniversitylive&psig=AOvVaw2gPSTLESfUTgcTIvVZlcrg&ust=1732974827999000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCx17rYgYoDFQAAAAAdAAAAABAJ"
           alt="KLU Logo"
           className="w-48 h-48 mx-auto mb-8"
         />
