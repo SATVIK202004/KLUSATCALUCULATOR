@@ -14,10 +14,9 @@ const WarningBanner = () => {
         <div>
           <p className="text-sm text-yellow-700">
             <span className="font-bold">quotes </span>
-            "Mark your presence, not just your attendance"
-            "Attend classes, not worries"
-            "Stay on track, stay ahead"
-            "Effortless attendance, effortless success"
+          <p>As a KL University student, you know how important it is to stay on top of your attendance requirements. Our intelligent attendance tracking system is designed to help you do just that, providing real-time insights and smart predictions to ensure you never miss a class or deadline.</p>
+
+<p>With our system, you'll be able to track your attendance history, set goals, and make informed decisions about your academic path. Plus, receive instant notifications on attendance requirements, deadlines, and schedule changes, so you can stay focused on what matters most – your education.</p>
           </p>
         </div>
       </div>
